@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<p>javascript yaptığımız örnekler</p>
+<p>yorum satırı içn &lt;!-- yorum--&gt;</p>
+<p>ÖNEMLİ! kod olarak algılanmaması için örnek kodlar yorum satırı içine yazılmıştır.</p>
+<p><strong>tetikleme</strong></p>
+<p>sayfa yüklendiğinde bir işlem yapacaksak &lt;body&gt; etiketine onload yazıyoruz ve fonksyonu çağırıyoruz  &lt;!--&lt;body onload=&quot;yukle()&quot;&gt; --&gt;</p>
+<p>bir resime bir butona bir dive yada bir hücreye tıklayınca çalışacaksa etiketine onclick yazıyoruz ve fonksyonu çağırıyoruz &lt;!--&lt;td onclick=&quot;yazdır()&quot;&gt; yada &lt;img src=&quot;resim.jpg&quot; onclick=&quot;yazdır()&quot; ....gibi gibi--&gt;</p>
+<p>bir text kutusuna yazmak için tıklandığında onfocus ile fonksyonu çağırabiliyoruz. text kutusundan başka bie yere tıklandığında onblur ile başka bir fonksyon çağırabiliyoruz. &lt;!--&lt;input name=&quot;metin&quot; type=&quot;text&quot; id=&quot;metin&quot; onfocus=&quot;sarıyap()&quot; onblur=&quot;siyahyap()&quot; value=&quot;Arama yapılacak kelime&quot;/&gt;--&gt;</p>
+<p>bir yazı yazarken her tuşa bastığımızda da fonksyon çağırabiliriz. &lt;!--&lt;input name=&quot;metin&quot; type=&quot;text&quot; id=&quot;metin&quot; onkeypress=&quot;sarıyap()&quot; value=&quot;Arama yapılacak kelime&quot;/&gt;--&gt;</p>
+<p>fare bir yerin üzerine geldiğinde yada bir yerin üzerinden ayrıldığında da fonksyon çağırabiliyoruz. &lt;!--onmouseover=&quot;kirmizi() onmouseout=&quot;beyaz()--&gt;</p>
+<p><strong>satır içi script de yazabiliriz.</strong></p>
+<p>yukarıdakilerin hepsi için fonksyon yazmak yerine satır içinde hemen kod yazıp işimizi görebiliriz</p>
+<p>&lt;!--onmouseover=&quot;kirmizi() onmouseout=&quot;beyaz()--&gt; yazıp fonksyon çağırmak yerine  &lt;img src=&quot;resim1.jpg&quot; onmouseover=&quot;this.src='resim2.jpg' &quot; onmouseout=&quot;this.src='resim2.jpg' &quot;/&gt; yazabiliriz.</p>
+<p><strong>içine yazı yazmak için</strong></p>
+<p>sayfaya yazdıracaksak fonksyon içerisinde &lt;!--document.write(&quot;yazmak istediğimiz yazı&quot;);--&gt;</p>
+<p>bir div e bir td ye yazdıracaksak &lt;!-- document.getelementbyid(&quot;alan&quot;).innerHTML=&quot;yazmak istediğimiz yazı&quot;--&gt;</p>
+<p>bir text kutusuna yazdıracaksak &lt;!-- document.getelementbyid(&quot;alan&quot;).value=&quot;yazmak istediğimiz yazı&quot;--&gt;</p>
+<p><strong>bir text kutusundaki yazıyı almak için</strong></p>
+<p>genelde bir değişkene alıyoruz burada örnek olarak yazi isminde bir değişkene aldık&lt;!-- var yazi=document.getelementbyid(&quot;alan&quot;).value--&gt;</p>
+<p><strong>durdurup başlatma</strong></p>
+<p>hareket özelliği olan örneğin marquee gibi komutları durdurup başlatabiliriz </p>
+<p>&lt;!--onmouseover=&quot;this.stop()&quot; onmouseout=&quot;this.start()&quot; --&gt; bu örnekte fonksyon çağırmayıp satır içinde hallediyoruz. fare üstüne gelince duruyor. fare üstünden gidince tekrar hareket ediyor. aynı işlemi scrollamount yani hızı sıfırlayarakta yapabiliriz.</p>
+<p><strong>en çok değiştirdiğimiz özellikler</strong></p>
+<p>javascript ile amacımız mevcut özellikleri değitirmek.</p>
+<p>src</p>
+<p>className</p>
+<p>style.height</p>
+<p>style.witdh</p>
+<p>style.color</p>
+<p>style.backgroundColor</p>
+<p>&nbsp;</p>
+</body>
+</html>

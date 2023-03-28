@@ -1,0 +1,283 @@
+@charset "utf-8";
+/* CSS Document */
+
+#sabitbaslik {
+	opacity: ;
+	background-color: #990501;
+	height: 59px;
+	width: 100%;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #9CF;
+	position: fixed;
+	top: 0px;
+	z-index: 1000;
+}
+#sabitbaslikorta {
+	height: 49px;
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+}
+#logo {
+	float: left;
+	height: 43px;
+	width: 138px;
+}
+#arama {
+	background-color: #FFF;
+	float: left;
+	height: 32px;
+	width: 250px;
+	margin-left: 150px;
+}
+#arama #metin {
+	height: 30px;
+	width: 220px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #CCC;
+}
+#arama #button {
+	background-image: url(images/header_search.png);
+	height: 20px;
+	width: 20px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: #FFF;
+}
+#iphone {
+	float: right;
+	height: 35px;
+	width: 250px;
+}
+#menu {
+	background-color: #FFFFFF;
+	height: 42px;
+	width: 100%;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	margin-top: 63px;
+	border-bottom-color: #EFEFEF;
+}
+#menu #menuorta {
+	height: 42px;
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#menu ul li {
+	float: left;
+	width: 74px;
+	height: 32px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #E9E9E9;
+	padding-right: 2px;
+	padding-left: 2px;
+	text-align: center;
+	padding-top: 10px;
+}
+.beyazmenu {
+	color: #F00;
+	text-decoration: none;
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.kucukhaber {
+	background-color: #FFF;
+	float: left;
+	height: 160px;
+	width: 220px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #454545;
+	font-weight: bold;
+}
+#kucukhaber2 {
+	margin-left: 24px;
+}
+#kucukhaber3 {
+	margin-left: 24px;
+}
+#kucukhaber4 {
+	margin-left: 22px;
+	float: right;
+}
+#khaberler {
+	height: 160px;
+	width: 950px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#orta {
+	height: 400px;
+	width: 950px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#ortasol {
+	float: left;
+	height: 390px;
+	width: 620px;
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #FFF;
+}
+#ortasag {
+	float: right;
+	height: 390px;
+	width: 300px;
+	padding-top: 10px;
+}
+.baslik {
+	height: 23px;
+	width: 300px;
+	border: 1px solid #CCC;
+	color: #F00;
+	background-color: #FFF;
+	padding-top: 5px;
+}
+.haber {
+	height: 0px;
+	width: 300px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCC;
+	border-left-color: #CCC;
+	text-align: center;
+	overflow: hidden;
+}
+#panelresim {
+	height: 100px;
+	width: 940px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#kirmizialt {
+	width: 100%;
+	background-color: #990501;
+	height: 30px;
+}
+#kirmizialtorta {
+	height: 30px;
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+#siyahalt {
+	background-color: #000;
+	height: 50px;
+	width: 100%;
+}
+#siyahaltorta {
+	color: #FFF;
+	height: 40px;
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+}
+#siyahalt #siyahaltorta #linkler {
+	float: right;
+	height: 45px;
+	width: 210px;
+	color: #FFF;
+	text-decoration: none;
+}
+#siyahalt #siyahaltorta #linkler a {
+	color: #FFF;
+	text-decoration: none;
+}
+#siyahalt #siyahaltorta #linkler a:hover {
+	color: #999;
+	text-decoration: none;
+}
+#sagbaner {
+	position: fixed;
+	top: 117px;
+	width: 100;
+	height: 600;
+	z-index: 100;
+	right: 0px;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	background-color: #F7F7F7;
+}
+.kirmizimenu {
+	color: #FFF;
+	text-decoration: none;
+	background-color: #F00;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #9CF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.saydam {
+        filter : alpha(opacity=50);
+	opacity:0.5;
+	-moz-:0.5;
+}
+.net {
+        filter : alpha(opacity=100);
+	opacity:1;
+	-moz-:1;
+}
+
+.haberson {
+	height: 120px;
+	width: 300px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCC;
+	border-left-color: #CCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	text-align: center;
+	overflow: hidden;
+}
+.basliktik {
+	height: 23px;
+	width: 300px;
+	border: 1px solid #CCC;
+	color: #FFF;
+	background-color: #F00;
+	padding-top: 5px;
+}

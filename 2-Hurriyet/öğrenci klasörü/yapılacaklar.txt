@@ -1,0 +1,9 @@
+1.arama onfocus on blur
+2.üst menü
+3.rastgele resim
+4.küçük haber saydam
+5.ana resim galeri
+6.büyük haber kýrmýzý nokta
+7.sað haber týklama
+8.sað haber zamanlayýcý
+9.kayan resim start stop
